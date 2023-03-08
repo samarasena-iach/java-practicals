@@ -1,0 +1,7 @@
+Index
+
+Java Streams [HowToDoInJava.com] [https://howtodoinjava.com/java/stream/java-streams-by-examples/]
+Java 8 Stream [Java T Point] [https://www.javatpoint.com/java-8-stream]
+Java 8 Stream - Java Stream [DigitalOcean] [https://www.digitalocean.com/community/tutorials/java-8-stream]
+The Java 8 Stream API Tutorial [Baeldung] [https://www.baeldung.com/java-8-streams]
+10 Examples of Stream API in Java 8 [Java67] [https://www.java67.com/2014/04/java-8-stream-examples-and-tutorial.html]
