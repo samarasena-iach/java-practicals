@@ -7,15 +7,20 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class Lesson_01_CreatingStreams {
+
+    /**
+     * The given below ways are the most popular different ways to build streams from collections.
+     */
+
     public static void main(String[] args) {
-        method01_StreamOf();
-        method02_StreamOfArray();
-        method03_ListStream();
-        method04_StreamGenerate_StreamIterate();
-        method05_StreamOfStringChars_Or_Tokens();
+        Method_01_StreamOf();
+        Method_02_StreamOfArray();
+        Method_03_ListStream();
+        Method_04_StreamGenerate_StreamIterate();
+        Method_05_StreamOfStringChars_Or_Tokens();
     }
 
-    static void method01_StreamOf() {
+    static void Method_01_StreamOf() {
         // O1 - Stream.of()
         // In the given example, we are creating a stream of a fixed number of integers.
 
@@ -23,7 +28,7 @@ public class Lesson_01_CreatingStreams {
         stream.forEach(p -> System.out.println(p));
     }
 
-    static void method02_StreamOfArray() {
+    static void Method_02_StreamOfArray() {
         // 02 - Stream.of(array)
         // In the given example, we are creating a stream from the array.
         // The elements in the stream are taken from the array.
@@ -32,7 +37,7 @@ public class Lesson_01_CreatingStreams {
         stream.forEach(p -> System.out.println(p));
     }
 
-    static void method03_ListStream() {
+    static void Method_03_ListStream() {
         // 03 - List.stream()
         // In the given example, we are creating a stream from the List.
         // The elements in the stream are taken from the List.
@@ -47,7 +52,7 @@ public class Lesson_01_CreatingStreams {
         stream.forEach(p -> System.out.println(p));
     }
 
-    static void method04_StreamGenerate_StreamIterate() {
+    static void Method_04_StreamGenerate_StreamIterate() {
         // 04 - Stream.generate() or Stream.iterate()
         // In the given example, we are creating a stream from generated elements.
         // This will produce a stream of 20 random numbers.
@@ -59,7 +64,7 @@ public class Lesson_01_CreatingStreams {
         randomNumbers.limit(20).forEach(System.out::println);
     }
 
-    static void method05_StreamOfStringChars_Or_Tokens() {
+    static void Method_05_StreamOfStringChars_Or_Tokens() {
         // 05 - Stream of String chars or tokens
         // In the given example, first, we create a stream from the characters of a given string.
         // In the second part, we are creating the stream of tokens received from splitting from a string.
