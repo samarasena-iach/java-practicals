@@ -1,0 +1,9 @@
+HowToDoInJava.com
+
+Java Streams
+https://howtodoinjava.com/java/stream/java-streams-by-examples/
+
+A Stream in Java can be defined as a sequence of elements from a source.
+The source of elements here refers to a Collection or Array that provides data to the Stream.
+
+

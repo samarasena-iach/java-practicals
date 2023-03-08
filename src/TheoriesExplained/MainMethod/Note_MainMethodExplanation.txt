@@ -5,7 +5,7 @@ youtube.com/watch?v=P-_Nzi_mCRo
 
 JRE calls or triggers the main method using "MainMethodExplanation.main(args);" and starts the application
 
-All the other pieces of the method such as "public static void main ...", simplt the Method Signature
+All the other pieces of the method such as "public static void main ...", simply the Method Signature
 are designed to make that call work.
 
     public -
@@ -20,5 +20,12 @@ are designed to make that call work.
         It's just going to run the main method directly on the class.
 
     void -
+        void is actually the return type of your main method. It has no need to actually return anything.
 
+    main -
+        Why is it called 'main'? No reason, it's just called main. You can't call it anything else.
+        The JRE is going to make the call YOUR_CLASS.main
+        So your main method better be called 'main'
+
+    String[] args - Array of Strings that are arguments that can be passed to your program.
 

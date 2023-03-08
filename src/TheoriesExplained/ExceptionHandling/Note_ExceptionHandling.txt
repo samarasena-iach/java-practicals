@@ -1,0 +1,20 @@
+Coding with John
+
+Exception Handling in Java Tutorial
+https://www.youtube.com/watch?v=1XAfapkBQjk
+
+What is an Exception?
+    An exception is a generally unwanted event that interrupts the normal flow of your program.
+    Here's a quick example of a simple code that would cause an exception.
+
+        int myInt = Integer.parseInt("pants);
+
+    We're trying to parse an int from the string "pants"
+    parseInt() usually works with values such as '1', '13', '6547' etc.
+
+    Upon execution we get [NumberFormatException : For input string: "pants"]
+
+    This is where the exception handling comes in. Instead of just blowing up and terminating the program,
+    you can catch the exception that's thrown and have special code to handle that situation elegantly.
+
+    In Java, we do that with 'try catch' code blocks.
