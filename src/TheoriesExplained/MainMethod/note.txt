@@ -1,0 +1,24 @@
+Coding with John
+
+Java Main Method Explained - What Does All That Stuff Mean?
+youtube.com/watch?v=P-_Nzi_mCRo
+
+JRE calls or triggers the main method using "MainMethodExplanation.main(args);" and starts the application
+
+All the other pieces of the method such as "public static void main ...", simplt the Method Signature
+are designed to make that call work.
+
+    public -
+        Why is it public? It is public because this method (main) has to be callable by something outside
+        of this class. If this method was something else, like "private" or "protected", the JRE wouldn't
+        have the access to call it.
+
+    static -
+        A static method is a method that can be called on a class without needing an instance of that class
+        to run it against. That's how the JRE is actually going to call your program.
+        It's not going to create an object of MainMethodExplanation and then run a main method on it.
+        It's just going to run the main method directly on the class.
+
+    void -
+
+
